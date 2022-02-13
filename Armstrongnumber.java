@@ -11,7 +11,7 @@ public class Armstrongnumber {
         int a= num1;
         while(a <= num2){
             if( a>0 ){
-                int c = a % 10;
+                int c = a % 10;   //taking the units place of the number
                 int newnum = a/10;
                 int b = newnum % 10;
                 newnum = newnum/10;
